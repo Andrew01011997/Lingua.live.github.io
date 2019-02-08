@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	width: 100%;
+	height:  800px;
+	background-color: white;
+}
+
+.head{
+	width: 100%;
+	height: 800px;
+	background-image: url(img/background_head.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.space{
+	width: 100%;
+	height: 50px;
+	display: block;
+	background-color: none;
+}
+.logo{
+	width: 273px;
+	height: 273px;
+	
+	border-radius: 50%;
+	margin: auto;
+
+}
+.head h2{
+	margin: auto;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.7em;
+	font-weight: normal;
+	text-align: center;
+	text-shadow: black 2px 3px 4px;
+}
+
+.head .header_text_bold{
+	font-weight: bold;
+}
+
+.zip_code_container{
+	width: 400px;
+	min-height: 300px;
+	background-color: white;
+	margin: auto;
+	margin-top: 80px;
+	border-radius: 5px;
+	border: 1px solid silver;
+}
+
+.zip_code_container .space{
+	height: 35px;
+}
+
+.zip_code_container input{
+	width: 100%;
+	height: 30px;
+	color: #b4adad;
+	border: 1px solid #b4adad;
+	border-radius: 3px;
+}
+
+.enter_zip{
+	width: 70%;
+	margin: auto;
+}
+
+.zip_code_container img{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.zip_code_container p{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 0.9em;
+	padding: 30px;
+	color: #938e8e;
+}
+
+.zip_code_container .button_zip{
+	width: 60%;
+	height: 40px;
+	border-radius: 3px;
+	margin: auto;
+	background-color: blue;
+	align-content: center;
+}
+.zip_code_container .button_zip h2{
+	font-size: 1.5em;
+	text-shadow: none;
+	font-weight: bold;
+}
+.zip_code_container .button_zip a{
+	text-decoration: none;
+}
+
+/*----------------------*/
+
+.white_block{
+	width: 100%;
+	min-height: 300px;
+	background-color: white;
+	margin-top: 170px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
